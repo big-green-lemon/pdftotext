@@ -98,4 +98,7 @@ setup(
     url="https://github.com/jalan/pdftotext",
     license="MIT",
     ext_modules=[module],
+    package_data={
+        "mymodule": ["*.pyi", "py.typed"],
+    },
 )
